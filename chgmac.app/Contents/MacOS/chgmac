@@ -1,0 +1,4 @@
+#!/bin/bash
+HEXADEC="`dd bs=1 count=2 if=/dev/random 2>/dev/null |hexdump -v -e '/1 "%02X"'`"
+cd $(dirname "$0")
+./chgmac-exec en0 $HEXADEC
