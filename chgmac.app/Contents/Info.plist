@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>CFBundlePackageType</key><string>APPL</string><key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+
+    <key>CFBundleName</key>                      <string>chgmac</string>
+    <key>CFBundleExecutable</key>                <string>chgmac</string>
+    <key>CFBundleIdentifier</key> <string>appified.marlon.chgmac</string>
+
+    <key>CFBundleVersion</key>            <string>0.1</string>
+    <key>CFBundleGetInfoString</key>      <string>0.1 appified by marlon at Sun Jun 21 22:37:45 CEST 2015</string>
+    <key>CFBundleShortVersionString</key> <string>0.1</string>
+
+</dict></plist>
