@@ -10,7 +10,7 @@ if [ `printf "$1"|wc -c|awk '{print $1}'` -gt 0 ];then
 			if [[ "$NEWETH" =~ ^([a-fA-F0-9]{2}:){5}[a-fA-F0-9]{2}$ ]]; then
 				echo Success: Mac address valid! \:\)
 				sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -z
-				sudo ifconfig en0 ether $NEWETH
+				sudo ifconfig $1 ether $NEWETH
 				sudo networksetup -detectnewhardware
 			else
 				echo Failure: Mac address invalid \:\(
